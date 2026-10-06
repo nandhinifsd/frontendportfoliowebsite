@@ -31,7 +31,7 @@ const projects = [
     ],
     image: "/screenshots/taskbloom.png",
     github: "https://github.com/nandhinifsd/Smart-AI-Enabled-Personal-Task-Manger-and-Goal-Tracker-.git",
-    live: "smartpersonaltaskmanagergoaltracker.netlify.app",
+    live: "https://smartpersonaltaskmanagergoaltracker.netlify.app",
   },
   {
     title: "Stampora",
@@ -54,7 +54,30 @@ const projects = [
     demonstrates: ["CRUD operations", "API integration", "Filtering", "Routing", "Frontend development"],
     image: "/screenshots/stampora.png",
     github: "https://github.com/nandhinifsd/React-stampore-project-crudoperations-and-filters-on-products-dashboard.git",
-    live: "stampora.netlify.app",
+    live: "https://stampora.netlify.app",
+  },
+  {
+    title: "Independence Day Greeting",
+    subtitle: "Emotional Greeting with a quiz page",
+    category: "featured",
+    description:
+      "An Greeting demonstrating the pain and scarifies behind the joy of freedom we enjoy A quiz page also assess our knowledge about our country.",
+    technologies: ["React", "JavaScript", "React Router", "Motion"],
+    features: [
+      "Product listing",
+      "Product CRUD",
+      "Product filtering",
+      "Product details",
+      "Order management",
+      "Customer information",
+      "Order status management",
+      "API integration",
+      "Responsive UI",
+    ],
+    demonstrates: ["Responsive Design", "UI design", "Routing", "Frontend development"],
+    image: "/screenshots/quiz.png",
+    github: "https://github.com/nandhinifsd/Independencedaygreetingcardand-quizwith-react.git",
+    live: "https://independencedaygreetingandquiz.netlify.app",
   },
   {
     title: "JourneyCraft",
@@ -100,7 +123,7 @@ const projects = [
     ],
     image: "/screenshots/tanjorepainting.jpeg",
     github: "https://github.com/nandhinifsd/bootstrap_responsive_website.git",
-    live: " https://nandhinifsd.github.io/bootstrap_responsive_website/",
+    live: "https://nandhinifsd.github.io/bootstrap_responsive_website/",
   },
 
   // ---------- Smaller JavaScript projects ----------
