@@ -64,15 +64,11 @@ const projects = [
       "An Greeting demonstrating the pain and scarifies behind the joy of freedom we enjoy A quiz page also assess our knowledge about our country.",
     technologies: ["React", "JavaScript", "React Router", "Motion"],
     features: [
-      "Product listing",
-      "Product CRUD",
-      "Product filtering",
-      "Product details",
-      "Order management",
-      "Customer information",
-      "Order status management",
-      "API integration",
-      "Responsive UI",
+      "Interactive Design",
+      "Animations with motion",
+      "State Management with React hooks",
+      "Single Page Quiz Application",
+      "Responsive UI"
     ],
     demonstrates: ["Responsive Design", "UI design", "Routing", "Frontend development"],
     image: "/screenshots/quiz.png",
@@ -110,12 +106,10 @@ const projects = [
       "A Website that showcases my Tanjore arts and helps to scale my art instagram page to next level",
     technologies: ["Bootstrap", "JavaScript", "HTML","CSS"],
     features: [
-      "Personalized travel planning",
-      "AI-generated itineraries",
-      "Destination planning",
-      "Travel preferences",
-      "Travel bucket list",
-      "API integration",
+     "Design that matches your buisness voice",
+     "Golden Fonts",
+     "Responsive Forms",
+     "Minimalistic webpage"
     ],
     demonstrates: [
       "React development", "Backend integration", "REST APIs",
