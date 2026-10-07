@@ -13,7 +13,7 @@ export const skillGroups = [
   },
   {
     title: "Tools and Deployment",
-    items: ["Git", "GitHub", "VS Code", "Postman", "Thunder","Figma","MongoDBCompass","Mongoose","Render","Netlify","Railway","Vercel"],
+    items: ["Git", "GitHub", "VS Code", "Postman", "Thunder","Figma","MongoDBCompass","Mongosh","Render","Netlify","Railway","Vercel"],
   },
   {
     title: "Currently Learning",
