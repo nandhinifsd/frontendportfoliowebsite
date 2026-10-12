@@ -46,7 +46,7 @@ const projects = [
       "Product filtering",
       "Product details",
       "Order management",
-      "Customer information",
+      "View Customer Information",
       "Order status management",
       "API integration",
       "Responsive UI",
@@ -61,7 +61,7 @@ const projects = [
     subtitle: "Emotional Greeting with a quiz page",
     category: "featured",
     description:
-      "An Greeting demonstrating the pain and scarifies behind the joy of freedom we enjoy A quiz page also assess our knowledge about our country.",
+      "A Greeting demonstrating the pain and scarifies behind the joy of freedom we enjoy A quiz page also assess our knowledge about our country.",
     technologies: ["React", "JavaScript", "React Router", "Motion"],
     features: [
       "Interactive Design",
@@ -85,13 +85,13 @@ const projects = [
     features: [
       "Personalized travel planning",
       "AI-generated itineraries",
-      "Destination planning",
-      "Travel preferences",
-      "Travel bucket list",
+      "Destination autoComplete with Geoapify API",
+      "Itinerary Generated with Personalised Travel Preferences",
+      "Personalised Travel bucket list",
       "API integration",
     ],
     demonstrates: [
-      "React development", "Backend integration", "REST APIs",
+      "Bootstrap Responsive Webpage","Javascript", "Backend integration", "REST APIs",
       "AI API integration", "Practical full-stack development",
     ],
     image: "/screenshots/AItravelplanner.png",
@@ -109,11 +109,10 @@ const projects = [
      "Design that matches your buisness voice",
      "Golden Fonts",
      "Responsive Forms",
-     "Minimalistic webpage"
+     "Minimalistic Photo Gallery"
     ],
     demonstrates: [
-      "React development", "Backend integration", "REST APIs",
-      "AI API integration", "Practical full-stack development",
+      "Bootstrap Responsive Webpage", "Theme based Webpage", 
     ],
     image: "/screenshots/tanjorepainting.jpeg",
     github: "https://github.com/nandhinifsd/bootstrap_responsive_website.git",
@@ -188,7 +187,7 @@ const projects = [
     description:
       "A JavaScript application for managing and displaying student marks and related calculations.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    features: ["Enter and display student marks", "Calculates averages and related results"],
+    features: ["Enter and display student marks", "Calculates Averages and Grades"],
     image: "/screenshots/Grade-calculator.png",
     github: "https://github.com/nandhinifsd/studentgradecalculator.git",
     live: "https://nandhinifsd.github.io/studentgradecalculator/",

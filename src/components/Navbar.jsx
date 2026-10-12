@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { navLinks, profile } from "../data/profile";
 import { CloseIcon, MenuIcon } from "./Icons";
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -49,9 +50,9 @@ export default function Navbar() {
           <ul className="hidden items-center gap-1 md:flex">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className={linkClass}>
+                <Link to={link.href} className={linkClass}>
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -83,13 +84,13 @@ export default function Navbar() {
               <ul className="flex flex-col gap-1 pb-4">
                 {navLinks.map((link) => (
                   <li key={link.href}>
-                    <a
-                      href={link.href}
+                    <Link
+                      to={link.href}
                       onClick={() => setOpen(false)}
                       className={`${linkClass} block py-3 text-base`}
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

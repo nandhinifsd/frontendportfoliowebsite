@@ -44,7 +44,7 @@ export default function ProjectSlider({ id, title, description, projects, widthC
           modules={[EffectCube, Navigation, Pagination, Keyboard, A11y]}
           effect="cube"
           grabCursor
-          cubeEffect={{ shadow: true, slideShadows: true, shadowOffset: 20, shadowScale: 0.94 }}
+          cubeEffect={{ shadow: false, slideShadows: true, shadowOffset: 20, shadowScale: 0.94 }}
           speed={reduceMotion ? 0 : 600}
           navigation={{ prevEl: `.${prevClass}`, nextEl: `.${nextClass}` }}
           pagination={{ clickable: true }}

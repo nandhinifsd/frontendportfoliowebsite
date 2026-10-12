@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { profile } from "../data/profile";
 import SocialLinks from "./SocialLinks";
-
+import { Link } from "react-router-dom";
 const container = {
   hidden: {},
   show: { transition: { staggerChildren: 0.12, delayChildren: 0.2 } },
@@ -18,7 +18,7 @@ const tap = { scale: 0.97 };
 
 export default function Hero() {
   const [imgFailed, setImgFailed] = useState(false);
-
+const MotionLink=motion.create(Link);
   return (
     <section id="home" aria-labelledby="hero-title" className="scroll-mt-20 pb-16 pt-28 sm:pb-20 sm:pt-32">
       <div className="container-page grid items-center gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:gap-14">
@@ -45,12 +45,12 @@ export default function Hero() {
           </motion.p>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
-            <motion.a href="#projects" className="btn btn-primary" whileHover={hover} whileTap={tap}>
+            <MotionLink to="/projects" className="btn btn-primary" whileHover={hover} whileTap={tap}>
               View My Projects
-            </motion.a>
-            <motion.a href="#contact" className="btn btn-outline" whileHover={hover} whileTap={tap}>
+            </MotionLink>
+            <MotionLink to="/contact" className="btn btn-outline" whileHover={hover} whileTap={tap}>
               Contact Me
-            </motion.a>
+            </MotionLink>
           </motion.div>
 
           <motion.div variants={item} className="mt-8">

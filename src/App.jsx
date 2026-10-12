@@ -1,4 +1,5 @@
 import { MotionConfig } from "motion/react";
+import { Route,Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -19,13 +20,16 @@ export default function App() {
         Skip to content
       </a>
       <Navbar />
-      <main id="main">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Education />
-        <Contact />
+      <main id="main" className="min-h-screen h-auto">
+        <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
       <Footer />
     </MotionConfig>
